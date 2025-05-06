@@ -2,6 +2,14 @@ n1 = int(input("Zadej prvni cislo:\n"))
 n2 = int(input("Zadej druhe cislo:\n"))
 
 def delitel(n1: int, n2: int):
+    '''
+    input:
+        n1 -> int
+        n2 -> int
+    returns:
+        None, int
+    '''
+    
     if n1 > n2:
         higher = n1
     elif n2 > n1:
